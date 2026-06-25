@@ -78,3 +78,9 @@ Run the workflow from the project root:
 ```bash
 python src/main.py
 ```
+
+## Conclusion
+
+The daytime baseline process model showed limited agreement with the observed FLUXNET NEE values for 2012. The RMSE of 6.29 and MAE of 4.80 indicate that the model predictions differed from observed NEE by several units on average. The negative R² value (-0.38) shows that the model performed worse than using the mean observed NEE as a predictor. The positive bias of 4.04 suggests that the model generally overestimated NEE, meaning it predicted more positive NEE values than observed. Since negative NEE represents ecosystem CO₂ uptake, this indicates that the model likely underestimated daytime carbon uptake. Overall, the baseline equations capture only part of the daytime NEE behavior and need parameter calibration or additional environmental controls to improve performance.
+
+In future projects, I plan to use Bayesian techniques to reduce uncertainty in the model parameters and lower the prediction error.
