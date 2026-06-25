@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# FLUXNET raw data and generated outputs can be large.
+data/raw/*.csv
+data/processed/*.csv
+results/outputs/*.csv
+results/metrics/*.csv
+results/figures/*.png
+
+# Keep directory placeholders tracked.
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!results/outputs/.gitkeep
+!results/metrics/.gitkeep
+!results/figures/.gitkeep
